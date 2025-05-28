@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: #061826 ;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+.choice{
+    height:195px ;
+    width: 195px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.choice:hover{
+    opacity: .7;
+    border-radius: 50%;
+    
+}
+#rock:hover{
+    background-color: rgb(237, 54, 115);
+}
+#paper:hover{
+    background-color: purple ;
+}
+#scissors:hover{
+    background-color:blue;
+}
+ 
+
+img{
+    height:175px ;
+    width: 175px;  
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+    margin-top: 8vh;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12vh;
+}
+.scoreboard{
+    margin: 14vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#msg{
+    font-size: 4vh;
+    display: inline;
+    color: white;
+    background-color:#0471A6;
+    padding: 2vh;
+    border-radius: 1rem;
+}
+ .uscore{
+    font-size: 2rem;
+ }
+ .cscore{
+    font-size: 2rem;
+ }
+ #uscorev{
+    font-size: 4rem;
+ }
+ #cscorev{
+    font-size: 4rem;
+ }
+ #reset{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    margin: 8vh;
+    height: 4vh;
+    width:6vh
+ }
+ .opt{
+    font-size: 3vh;
+    
+ }
